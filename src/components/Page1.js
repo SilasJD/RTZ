@@ -46,7 +46,7 @@ updateInputValueX(e) {
     this.setState({ximp: this.state.ximp + 1});
   }
   moveUp = (e) => {
-    this.setState({yimp: this.state.yimp + 1});
+    this.setState({yimp: this.state.yimp + 100});
   }
   moveDown = (e) => {
     this.setState({yimp: this.state.yimp - 1});
