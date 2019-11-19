@@ -40,16 +40,16 @@ updateInputValueX(e) {
   }
 
   moveLeft = (e) => {
-    this.setState({ximp: this.state.ximp - 10});
+    this.setState({ximp: this.state.ximp - 1});
   };
   moveRight = (e) => {
-    this.setState({ximp: this.state.ximp + 10});
+    this.setState({ximp: this.state.ximp + 1});
   }
   moveUp = (e) => {
-    this.setState({yimp: this.state.yimp + 10});
+    this.setState({yimp: this.state.yimp + 1});
   }
   moveDown = (e) => {
-    this.setState({yimp: this.state.yimp - 10});
+    this.setState({yimp: this.state.yimp - 1});
   }
   render() {
     const { x, y, xcl, ycl, ximp, yimp} = this.state;
